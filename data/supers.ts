@@ -1,0 +1,85 @@
+import { Super, SuperResult } from '@/types'
+
+export const supers: Array<Super> = [
+  { name: 'Gust(C2T2-2020)', slug: 'universal-man', threatRating: 2.0, description: 'Mira instável, construção iniciante', img: 'universal_man.png' },
+  { name: 'Brendinha(C2T2-2020)', slug: 'psycwave', threatRating: 2.0, description: 'Joga só pra se divertir, construção básica', img: 'psycwave.png' },
+  { name: 'Felipe(C2T2-2020)', slug: 'everseer', threatRating: 3.2, description: 'Bom de mira, construção limitada', img: 'everseer.png' },
+  { name: 'Brendinha(C2T3-2020)', slug: 'macroburst', threatRating: 5.9, description: 'Mira boa, construção melhorada', img: 'macroburst.png' },
+  { name: 'Gust(C2T3-2020)', slug: 'phylange', threatRating: 4.7, description: 'Mira média, construção decente', img: 'phylange.png' },
+  { name: 'Felipe(C2T3-2020)', slug: 'blazestone', threatRating: 5.5, description: 'Controle sólido,Semi-Pro e mira estável', img: 'blazestone.png' },
+  { name: 'Gust(C2T4-2020)', slug: 'dynaguy', threatRating: 6.2, description: 'Semi-Pro player, construção rápida', img: 'dynaguy.png' },
+  { name: 'Brendinha(C2T4-2020)', slug: 'downburst', threatRating: 4.5, description: 'Controle quebrado, mas continua perigosa', img: 'downburst.png' },
+  { name: 'Felipe(C2T4-2020)', slug: 'hyper-shock', threatRating: 4.5, description: 'Semi-Pro player, mira precisa', img: 'hyper_shock.png' },
+  { name: 'Gust(C2T8-2020)', slug: 'apogee', threatRating: 6.5, description: 'Pro player, mira e construção impecáveis', img: 'apogee.png' },
+  { name: 'Brendinha(C2T8-2020)', slug: 'tradewind', threatRating: 5.8, description: 'Mesmo com controle ruim, Semi-Pro', img: 'tradewind.png' },
+  { name: 'Felipe(C2T8-2020)', slug: 'vectress', threatRating: 6.1, description: 'Pausado,Semi-Pro com reflexos de veterano', img: 'vectress.png' },
+  { name: 'Brendinha(C3T1-2021)', slug: 'gazerbeam', threatRating: 6.3, description: 'Semi-Pro, Visão lazer e Mira excelente', img: 'gazerbeam.png' },
+  { name: 'Felipe(C3T1-2021)', slug: 'stormicide', threatRating: 6.7, description: 'A volta do prime, Mira implacável', img: 'stormicide.png' },
+  { name: 'Gust(C3T1-2021)', slug: 'gamma-jack', threatRating: 7.9, description: 'Quase um mestre da construção, Mira excelente', img: 'gamma_jack.png' },
+  { name: 'Brendinha(C6T4-2025)', slug: 'splashdown', threatRating: 8.7, description: 'Deusa da matança, Semi-Pro em construção', img: 'splashdown.png' },
+  { name: 'Felipe(C6T4-2025)', slug: 'plasmabolt', threatRating: 8.2, description: 'Deus da Mira, Semi-Pro em construção', img: 'plasmabolt.png' },
+  {
+    name: 'Gust(C6T4-2025)',
+    slug: 'metaman',
+    threatRating: 8.9,
+    description: 'Deus da Construção, Mira Semi-Pro',
+    img: 'metaman.png',
+  },
+  {
+    name: 'Kit',
+    slug: 'mr-incredible',
+    threatRating: 10.0,
+    description: 'O CEO dos Mafukos',
+    img: 'mr_incredible.png',
+  },
+]
+
+export const supersResult: Array<SuperResult> = [
+  {
+    name: 'Brendinha(C6T4-2025)',
+    slug: 'Brendinha',
+    description: 'Deusa da matança, Semi-Pro em construção',
+    lastActiveRecord: '17.19.45',
+    locationKnown: false,
+    img: 'splashdown.png',
+    threatRating: '8.7 Perigo extremo, não lutar sozinho',
+  },
+  {
+    name: 'Felipe(C6T4-2025)',
+    slug: 'Felipe',
+    description: 'Deus da Mira, Semi-Pro em construção',
+    lastActiveRecord: '21.51.55',
+    locationKnown: false,
+    img: 'plasmabolt.png',
+    threatRating: '8.2 Perigo extremo, não lutar sozinho',
+  },
+  {
+    name: 'Gust(C6T4-2025)',
+    slug: 'Gust',
+    description: 'Deus da Construção, Mira Semi-Pro',
+    lastActiveRecord: '00.00.55',
+    locationKnown: false,
+    img: 'metaman.png',
+    threatRating: '8.9 Perigo extremo, não lutar sozinho',
+  },
+  {
+    name: 'Elastigirl',
+    slug: 'elastigirl',
+    img: 'elastigirl.png',
+    description:
+      'Full-body elasticity, body capable of stretching in extreme way up to three hundred feet, high durability to physical injuries, stretch assisted leaps span eighty feet. Can compress and expand shape limited to maintaining bodily volume.',
+    lastActiveRecord: '13.11.55',
+    locationKnown: false,
+    threatRating: '6.2 Perigo extremo, não lutar sozinho',
+  },
+  {
+    name: 'Frozone',
+    slug: 'frozone',
+    img: 'frozone.png',
+    description:
+      'Spontaneous generation of ice from water sources, freeze surface areas in excess of five hundreds meters. Manipulation of water for the formation of ice in solid form and structures in this material. He can generate ice from his fingertips but is limited by the amount of moisture in the air and his body. ',
+    lastActiveRecord: '17.12.56',
+    locationKnown: true,
+    threatRating: '8.0 Perigo extremo, não lutar sozinho',
+  },
+]
